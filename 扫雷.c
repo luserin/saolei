@@ -1,8 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7234f0589197f54a0a6440681c2585df75eddbd8
 #include"game.h"
 
 void menu() 
 {
+<<<<<<< HEAD
 	printf("************************\n");
 	printf("******* 1.play *********\n");
 	printf("******* 0.exit *********\n");
@@ -31,3 +36,30 @@ int main()
 		printf("游戏结束\n");
 	return 0;
 }
+=======
+	printf("**********************\n");
+	printf("*******0.exit ********\n");
+	printf("*******1.play ********\n");
+	printf("**********************\n");
+}
+void game() 
+{
+	printf("游戏开始\n");
+
+	
+}
+int main()
+{//创建菜单
+	menu();
+	int input = 0;
+	printf("请选择：\n");
+	scanf("%d", &input);
+	while (input) 
+	{
+		game();
+		break;
+	}
+	printf("游戏结束！");
+	return 0;
+}
+>>>>>>> 7234f0589197f54a0a6440681c2585df75eddbd8

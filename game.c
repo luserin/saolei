@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
+<<<<<<< HEAD
 #include"game.h"
 void init_board(char str[ROWS][RANKS], int rows, int ranks,char s)
 {
@@ -76,3 +77,6 @@ int find_mine(char str[ROWS][RANKS], int x, int y)
 {
 	return str[x - 1][y - 1] + str[x - 1][y] + str[x - 1][y + 1] + str[x][y - 1] + str[x][y + 1] + str[x + 1][y - 1] + str[x + 1][y] + str[x + 1][y + 1]-8*'0';
 }
+=======
+#include"game.h"
+>>>>>>> 7234f0589197f54a0a6440681c2585df75eddbd8

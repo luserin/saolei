@@ -18,6 +18,7 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <ClCompile Include="game.c" />
     <ClCompile Include="扫雷.c" />
@@ -25,6 +26,8 @@
   <ItemGroup>
     <ClInclude Include="game.h" />
   </ItemGroup>
+=======
+>>>>>>> 7234f0589197f54a0a6440681c2585df75eddbd8
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -146,6 +149,16 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ClCompile Include="game.c" />
+    <ClCompile Include="扫雷.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+  </ItemGroup>
+>>>>>>> 7234f0589197f54a0a6440681c2585df75eddbd8
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
